@@ -2,5 +2,5 @@
 
 ## Authors
 #Meghana
-#Joyln
+#Joylyn
 #Adarsh
