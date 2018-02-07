@@ -15,6 +15,6 @@ The project focuses on applying the concepts of the course CS 418: Introduction 
 
 
 ## Authors
-#Meghana
+#Meghana Sanjay
 #Joylyn Lewis
 #Adarsh
