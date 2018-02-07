@@ -1,3 +1,6 @@
-# data_science
+### Welcome to the webpage for the Introduction to Data Science course project
 
-This is the Data Science project
+## Authors
+#Meghana
+#Joyln
+#Adarsh
