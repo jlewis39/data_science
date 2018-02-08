@@ -5,13 +5,13 @@ The project focuses on applying the concepts of the course CS 418: Introduction 
 
 
 ## Project Phases:
-#Data Discovery
-#Extraction
-#Integration
-#Analytics
-#Validation
-#Reporting 
-#Visualization
+Data Discovery
+Extraction
+Integration
+Analytics
+Validation
+Reporting 
+Visualization
 
 
 ## Authors
