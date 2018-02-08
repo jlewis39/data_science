@@ -1,4 +1,4 @@
-### Welcome to the webpage for the Introduction to Data Science course project
+### Welcome to the webpage for the Introduction to Data Science course project created by the team - **__A team has no name__**
 
 ## PROJECT GOAL
 The project focuses on applying the concepts of the course **CS 418: Introduction to Data Science** to a real world example of data related to the City of Chicago. Using at least ten sources of data like people, businesses, health, transportation, land-use, government, etc; principles of data discovery, extracting data based on essential attributes, integrating, analyzing and visualizing the results of the data need to be implemented. 
@@ -27,7 +27,8 @@ The detailed description of the Project is available [here](http://cs418.cs.uic.
 - [] Report 3 - Final project report describing technical approach, analyses, and results (2000 ± 100 words)
 - [] Self and peer evaluations along with specific contributions of each team member
 
-## AUTHORS
+## PROJECT TEAM 
+
 - Meghana Sanjay
 - Joylyn Lewis
 - Adarsh
