@@ -36,4 +36,4 @@ A Team Has No Name
 - **Joylyn Lewis**
   < jlewis39@uic.edu > 
   Joylyn is a graduate student in her first semester at UIC. She has over eight years of industry experience working as an SAP      consultant implementing ERP solutions. 
-- **Adarsh Hegde**
+- **Adarsh Hegde** < ahegde5@uic.edu >
