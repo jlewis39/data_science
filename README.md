@@ -33,6 +33,8 @@ A Team Has No Name
 
 ### TEAM MEMBERS
 - **Meghana Sanjay**
+  < msanja3@uic.edu > 
+  Meghana is a graduate student currently in her second semester at UIC. She's an energetic, enthusiastic, bubbly, jumpy, crazy sometimes lazy straight out of college girl and could dance before she learnt how to walk.
 - **Joylyn Lewis**
   < jlewis39@uic.edu > 
   Joylyn is a graduate student in her first semester at UIC. She has over eight years of industry experience working as an SAP      consultant implementing ERP solutions. In her free time, she likes reading fiction, cooking and travelling.
