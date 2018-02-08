@@ -1,5 +1,24 @@
 ### Introduction to Data Science Course Project Site
 
+
+## PROJECT TEAM DETAILS
+
+### TEAM NAME
+A Team Has No Name
+
+### TEAM MEMBERS
+- **Meghana Sanjay**
+  < msanja3@uic.edu > 
+  Meghana is a graduate student currently in her second semester at UIC. She's an energetic, enthusiastic, bubbly, jumpy, crazy sometimes lazy straight out of college girl and could dance before she learnt how to walk.
+- **Joylyn Lewis**
+  < jlewis39@uic.edu > 
+  Joylyn is a graduate student in her first semester at UIC. She has over eight years of industry experience working as an SAP      consultant implementing ERP solutions. In her free time, she likes reading fiction, cooking and travelling.
+- **Adarsh Hegde** < ahegde5@uic.edu >
+  Adarsh is a graduate student in his second semester at UIC. He loves programming and football.
+
+## WEEKLY STATUS REPORT
+This space will have the weekly status reports for each team member.
+
 ## PROJECT SUMMARY
 The project focuses on applying the concepts of the course **CS 418: Introduction to Data Science** to a real world example of data related to the City of Chicago. Using at least ten sources of data like people, businesses, health, transportation, land-use, government, etc; principles of data discovery, extracting data based on essential attributes, integrating, analyzing and visualizing the results of the data need to be implemented. 
 
@@ -26,16 +45,3 @@ The detailed description of the Project is available [here](http://cs418.cs.uic.
 - [] Report 3 - Final project report describing technical approach, analyses, and results (2000 ± 100 words)
 - [] Self and peer evaluations along with specific contributions of each team member
 
-## PROJECT TEAM DETAILS
-
-### TEAM NAME
-A Team Has No Name
-
-### TEAM MEMBERS
-- **Meghana Sanjay**
-  < msanja3@uic.edu > 
-  Meghana is a graduate student currently in her second semester at UIC. She's an energetic, enthusiastic, bubbly, jumpy, crazy sometimes lazy straight out of college girl and could dance before she learnt how to walk.
-- **Joylyn Lewis**
-  < jlewis39@uic.edu > 
-  Joylyn is a graduate student in her first semester at UIC. She has over eight years of industry experience working as an SAP      consultant implementing ERP solutions. In her free time, she likes reading fiction, cooking and travelling.
-- **Adarsh Hegde** < ahegde5@uic.edu >
