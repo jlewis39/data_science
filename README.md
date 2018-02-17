@@ -37,7 +37,7 @@ The detailed description of the Project is available [here](http://cs418.cs.uic.
 
 ## PROJECT DELIVERABLES
 - [X] Team names, team members, website URL and git repository URLs
-- [] Report 1 - Preliminary report containing results of discovery (1000 ± 50 words)
+- [X] Report 1 - Preliminary report containing results of discovery (1000 ± 50 words)
 - [] Report 2 - Overview of technical approach and high-level design (1000 ± 50 words)
 - [] Manual reference datasets
 - [] Fully functional application, a README.txt containing the information about how to run your code, and a file containing data results
