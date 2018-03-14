@@ -1,1 +1,0 @@
-# Extract Yelp dataset
