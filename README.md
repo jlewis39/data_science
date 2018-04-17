@@ -15,6 +15,8 @@ A Team Has No Name
   Joylyn is a graduate student in her first semester at UIC. She has over eight years of industry experience working as an SAP      consultant implementing ERP solutions. In her free time, she likes reading fiction, cooking and travelling.
 - **Adarsh Hegde** < ahegde5@uic.edu >
   Adarsh is a graduate student in his second semester at UIC. He loves programming and football.
+- **Stephen Walden** < swalde3@uic.edu >
+  Stephen is an undergraduate student in his sixth semester at UIC. He started programming around computer games, and has started chasing a career in computer science. He has a year of experience working with Robotic Process Automation in the industry. He enjoys driving motorcycles and building with legos. [More about Stephen](https://walden1995.github.io/)
 
 ## WEEKLY STATUS REPORT
 - The webpage for the Weekly Status Report is available [here](https://github.com/ateamhasnoname03/data_science/wiki/Weekly-Status-Report)
