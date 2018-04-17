@@ -1,4 +1,8 @@
 #pip3 install pandas
+
+#Look for the csv file from the
+#https://data.cityofchicago.org/Health-Human-Services/Food-Inspections/4ijn-s7e5
+
 import csv
 import sqlite3
 import pandas
