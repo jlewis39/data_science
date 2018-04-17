@@ -3,10 +3,11 @@
 #This file takes data from the Business_Licenses.csv (city of chicago database link below)
 #https://data.cityofchicago.org/Community-Economic-Development/Business-Licenses/r5kz-chrr
 #And from the Crime_data.csv (city of chicago database link below)
-#
+#https://data.cityofchicago.org/Public-Safety/Crimes-2001-to-present/ijzp-q8t2
 
 #And then determines how many crimes take place near stores/schools/resturants based upon license type. (i.e. a resturant only counted if it selled alcohol.)
-#The low leval details are that the csv files are loaded into a sqlite database stored in memory. 
+#The low leval details are that the csv files are loaded into a sqlite database stored in memory.
+
 import csv, sqlite3, pandas, latlongcalc
 from operator import itemgetter
 import sys
@@ -27,7 +28,8 @@ b = conn.cursor()
 b.execute('SELECT DISTINCT legal_name,address,license_code,latitude,longitude,license_term_expiration_date,substr(license_term_expiration_date,7,4) as year from licenses WHERE license_code == 1781 or license_code == 1690 or license_code == 1023 or license_code == 1584 or license_code == 1586 or license_code == 1585 or license_code == 1470 or license_code == 1474 ORDER BY address,legal_name LIMIT 500')
 licenses = b.fetchall()
 
-output = list()
+output = pandas.DataFrame(columns=['year','business_type','business_name','address','has_tobacco_license','has_liquor_license','crime_type','#crimes','#arrests','#OnPremises'])
+outputindx = 0
 for l in licenses:
   c = conn.cursor()
   c.execute('''select DISTINCT year, primary_type, arrest, description, latitude, longitude from crimes where year = ? LIMIT 500''',( l['year'], ))
@@ -63,5 +65,9 @@ for l in licenses:
   if types:
     for key in types:
       for key2 in types[key]:
-        print('{0},{1},"{2}","{3}",{4},{5},{6},{7},{8},{9}'.format(key,btype,l['legal_name'],l['address'],t_type,a_type,key2,types[key][key2][0],types[key][key2][1],types[key][key2][2]) )
+        outputindx += 1
+        output.loc[outputindx]= [key,btype,l['legal_name'],l['address'],t_type,a_type,key2,types[key][key2][0],types[key][key2][1],types[key][key2][2]]
 conn.close()
+
+output.to_csv("Task_1.csv")
+print("Look for the Task_1.csv file in the working directory")

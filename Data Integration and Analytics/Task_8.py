@@ -19,6 +19,8 @@ inspects = conn.cursor()
 inspects.execute("select *, substr(inspection_date,7,4)||substr(inspection_date,4,2)||substr(inspection_date,1,2) as date, CAST(substr(inspection_date,7,4) as integer) as year from inspect WHERE results = 'Out of Business' or results = 'Fail' ORDER BY address, date DESC")
 results = inspects.fetchall()
 numfailures = 0
+pd = pandas.DataFrame(columns = ['business_name','address','inspection_date','years_alive'])
+numresults = 0
 for i,v in enumerate(results):
   yearsalive = 0
   if v['results'] == 'Out of Business':
@@ -29,11 +31,12 @@ for i,v in enumerate(results):
       try:
         if results[i]['address'] == v['address']:
           yearsalive = v['year'] - results[i]['year']
-          print('{0}, {1}, {2}, {3}'.format(v['dba_name'],v['address'],results[i]['inspection_date'],yearsalive))
+          numresults += 1
+          pd.loc[numresults] = [v['dba_name'],v['address'],results[i]['inspection_date'],yearsalive]
           flag = False
           break
       except IndexError:
         flag = False
-print(len(results))
-print(numfailures)
 conn.close()
+pd.to_csv("Task_8.csv")
+print("Look for the Task_8.csv file in the working directory.")
