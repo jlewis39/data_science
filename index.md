@@ -1,7 +1,4 @@
-## Introduction to Data Science Course Project Website (CS 341)
-
-
-### PROJECT TEAM DETAILS
+## INTRODUCTION TO DATA SCIENCE COURSE PROJECT WEBSITE (CS 341)
 
 ### TEAM NAME
 A Team Has No Name
