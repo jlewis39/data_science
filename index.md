@@ -1,5 +1,12 @@
+### Introduction to Data Science Course Project Website
 
-<!DOCTYPE html>
+
+## PROJECT TEAM DETAILS
+
+### TEAM NAME
+A Team Has No Name
+
+## DATA VISUALIZATION CHARTS
 <html>
 <head>
 
@@ -72,21 +79,26 @@
 			 }})
 		
 				
-		console.log('Hello')
-		/*var massPopChart = new Chart(myChart,{
-			type:'bar', //bar, horizontal bar, pie, line, doughnuts, radar,polararea
-			data:{
-				labels:['Boston','Worcester','Springfield','Lowell','Cambridge', 'New Bedford'],
-				datasets:[{
-					label:'Population',
-					data:[1002,1453,6564,2324,8521,2422],
-					backgroundColor:'Orange'
-				}]
-			},
-			options:{}
-		});*/
-
+		
 	</script>
 
 </body>
 </html>
+
+
+### TEAM MEMBERS
+- **Meghana Sanjay**
+  < msanja3@uic.edu > 
+  Meghana is a graduate student currently in her second semester at UIC. She's an energetic, enthusiastic, bubbly, jumpy, crazy sometimes lazy straight out of college girl and could dance before she learnt how to walk.
+- **Joylyn Lewis**
+  < jlewis39@uic.edu > 
+  Joylyn is a graduate student in her first semester at UIC. She has over eight years of industry experience working as an SAP      consultant implementing ERP solutions. In her free time, she likes reading fiction, cooking and travelling.
+- **Adarsh Hegde** < ahegde5@uic.edu >
+  Adarsh is a graduate student in his second semester at UIC. He loves programming and football.
+- **Stephen Walden** < swalde3@uic.edu >
+  Stephen is an undergraduate student in his sixth semester at UIC. He started programming around computer games, and has started chasing a career in computer science. He has a year of experience working with Robotic Process Automation in the industry. He enjoys driving motorcycles and building with legos. [More about Stephen](https://walden1995.github.io/)
+
+## WEEKLY STATUS REPORT
+- The webpage for the Weekly Status Report is available [here](https://github.com/ateamhasnoname03/data_science/wiki/Weekly-Status-Report)
+- The weekly status is also managed using the project board available [here](https://github.com/ateamhasnoname03/data_science/projects/1)
+
