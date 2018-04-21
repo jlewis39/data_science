@@ -1,4 +1,4 @@
-### Introduction to Data Science Course Project Site
+### Introduction to Data Science Course Project Website
 
 
 ## PROJECT TEAM DETAILS
