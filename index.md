@@ -1,12 +1,12 @@
-### Introduction to Data Science Course Project Website
+## Introduction to Data Science Course Project Website (CS 341)
 
 
-## PROJECT TEAM DETAILS
+### PROJECT TEAM DETAILS
 
 ### TEAM NAME
 A Team Has No Name
 
-## DATA VISUALIZATION CHARTS
+### DATA VISUALIZATION CHARTS
 <html>
 <head>
 
@@ -98,7 +98,7 @@ A Team Has No Name
 - **Stephen Walden** < swalde3@uic.edu >
   Stephen is an undergraduate student in his sixth semester at UIC. He started programming around computer games, and has started chasing a career in computer science. He has a year of experience working with Robotic Process Automation in the industry. He enjoys driving motorcycles and building with legos. [More about Stephen](https://walden1995.github.io/)
 
-## WEEKLY STATUS REPORT
+### WEEKLY STATUS REPORT
 - The webpage for the Weekly Status Report is available [here](https://github.com/ateamhasnoname03/data_science/wiki/Weekly-Status-Report)
 - The weekly status is also managed using the project board available [here](https://github.com/ateamhasnoname03/data_science/projects/1)
 
