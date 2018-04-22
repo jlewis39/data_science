@@ -18,11 +18,15 @@
 <body>
 
 	<div class="container">
-		<canvas id="myChart"></canvas>
+		<canvas id="passedInspectionChart"></canvas>
+		<canvas id="conditionalInspectionChart"></canvas>
+		<canvas id="failedInspectionChart"></canvas>
 	</div>
 
 	<script>
-		var myChart = document.getElementById('myChart').getContext('2d');
+		var passedInspectionChart = document.getElementById('passedInspectionChart').getContext('2d');
+		var conditionalInspectionChart = document.getElementById('conditionalInspectionChart').getContext('2d');
+		var failedInspectionChart = document.getElementById('failedInspectionChart').getContext('2d');
 		$.ajax({url :'https://cors.io/?https://raw.githubusercontent.com/ateamhasnoname03/data_science/master/Data%20Integration%20and%20Analytics/output/task4_result.csv',
 			async: false,
 
@@ -55,17 +59,17 @@
 				})
 
 				var ratingToConditional = records.map((record) =>{
-					var ob = {x:record.avgRating, y:numCond}
+					var ob = {x:record.avgRating, y:record.numCond}
 					return ob
 				})
 
 				var ratingToFail = records.map((record) => {
-					var ob = {x:record.avgRating, y:numFail}
+					var ob = {x:record.avgRating, y:record.numFail}
 					return ob
 				})
 
 				// scatter plot for plotting average ratings vs number of passed inspections
-				var scatterChart = new Chart(myChart, {
+				var scatterChart = new Chart(passedInspectionChart, {
 			    type: 'scatter',
 			    data: {
 			        datasets: [{
@@ -86,7 +90,7 @@
 				});
 
 				// scatter plot for plotting average ratings vs number of conditional inspections
-				var scatterChart = new Chart(myChart, {
+				var scatterChart = new Chart(conditionalInspectionChart, {
 			    type: 'scatter',
 			    data: {
 			        datasets: [{
@@ -107,7 +111,7 @@
 				});	
 
 				// scatter plot for average ratings vs number of failed inspections
-				var scatterChart = new Chart(myChart, {
+				var scatterChart = new Chart(failedInspectionChart, {
 			    type: 'scatter',
 			    data: {
 			        datasets: [{
