@@ -50,18 +50,50 @@
 				var failCounts = records.map((record) => record.numFail)
 
 				var ratingToPass = records.map((record) => {
-				var obj = {x:record.avgRating,y:record.numPass}
-				return obj
+					var obj = {x:record.avgRating,y:record.numPass}
+					return obj
 				})
 
+				var ratingToConditional = records.map((record) =>{
+					var ob = {x:record.avgRating, y:numCond}
+					return ob
+				})
+
+				var ratingToFail = records.map((record) => {
+					var ob = {x:record.avgRating, y:numFail}
+					return ob
+				})
+
+				// scatter plot for plotting average ratings vs number of passed inspections
 				var scatterChart = new Chart(myChart, {
 			    type: 'scatter',
 			    data: {
 			        datasets: [{
-			            label: '#Pass vs Average Review Rating',
+			            label: 'Average Review Rating vs #Pass',
 			            data: ratingToPass,
-			            backgroundColor: 'Green',
-			            labels:['Label1']
+			            backgroundColor: 'Green'
+
+			        }]
+			    },
+			    options: {
+			        scales: {
+			            xAxes: [{
+			                type: 'linear',
+			                position: 'bottom'
+			            }]
+			        }
+			    }
+				});
+
+				// scatter plot for plotting average ratings vs number of conditional inspections
+				var scatterChart = new Chart(myChart, {
+			    type: 'scatter',
+			    data: {
+			        datasets: [{
+			            label: 'Average Review Rating vs #Conditional',
+			            data: ratingToConditional,
+			            backgroundColor: 'Orange'
+			            
 			        }]
 			    },
 			    options: {
@@ -74,10 +106,30 @@
 			    }
 				});	
 
+				// scatter plot for average ratings vs number of failed inspections
+				var scatterChart = new Chart(myChart, {
+			    type: 'scatter',
+			    data: {
+			        datasets: [{
+			            label: 'Average Review Rating vs #Fail',
+			            data: ratingToFail,
+			            backgroundColor: 'Red'
+
+			        }]
+			    },
+			    options: {
+			        scales: {
+			            xAxes: [{
+			                type: 'linear',
+			                position: 'bottom'
+			            }]
+			        }
+			    }
+				});
+
 			 }})
 		
-				
-		
+
 	</script>
 
 </body>
