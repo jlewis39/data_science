@@ -96,7 +96,7 @@
 			        datasets: [{
 			            label: 'Average Review Rating vs #Conditional',
 			            data: ratingToConditional,
-			            backgroundColor: 'Orange'
+			            backgroundColor: 'Yellow'
 			            
 			        }]
 			    },
